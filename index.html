@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project by Shivank, Saif, and Aatif</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 50px;
+            border: 3px solid #8c8c8c;
+            border-radius: 15px;
+            background-color: #fff;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #0073e6;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #ff6600;
+            margin: 20px 0;
+            text-shadow: 1px 1px 5px #000;
+        }
+
+        .highlight {
+            color: #e60073;
+            font-weight: bold;
+            font-size: 1.5em;
+            text-shadow: 0 0 10px #ff33cc, 0 0 20px #ff33cc, 0 0 30px #ff33cc;
+        }
+
+        /* Lightning effect */
+        .lightning {
+            position: relative;
+            color: #ffff00;
+            text-shadow: 
+                0 0 5px #fff, 
+                0 0 10px #fff, 
+                0 0 20px #ff9900, 
+                0 0 30px #ff9900, 
+                0 0 40px #ff9900, 
+                0 0 50px #ff9900, 
+                0 0 75px #ff9900;
+            animation: lightning 1.5s infinite;
+        }
+
+        @keyframes lightning {
+            0%, 100% {
+                text-shadow: 
+                    0 0 5px #fff, 
+                    0 0 10px #fff, 
+                    0 0 20px #ff9900, 
+                    0 0 30px #ff9900, 
+                    0 0 40px #ff9900, 
+                    0 0 50px #ff9900, 
+                    0 0 75px #ff9900;
+            }
+            50% {
+                text-shadow: 
+                    0 0 5px #fff, 
+                    0 0 20px #ffcc00, 
+                    0 0 30px #ffcc00, 
+                    0 0 60px #ffcc00, 
+                    0 0 80px #ffcc00, 
+                    0 0 100px #ffcc00;
+            }
+        }
+
+        /* Embed video container */
+        .video-container {
+            margin-top: 30px;
+            padding: 20px;
+            border: 3px solid #8c8c8c;
+            border-radius: 10px;
+            background-color: #282828;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container iframe {
+            border: none;
+        }
+
+        .lightning-video {
+            color: #ffff00;
+            text-shadow: 
+                0 0 5px #fff, 
+                0 0 10px #fff, 
+                0 0 20px #ff9900, 
+                0 0 30px #ff9900, 
+                0 0 40px #ff9900, 
+                0 0 50px #ff9900, 
+                0 0 75px #ff9900;
+            animation: lightning-video 1.5s infinite;
+        }
+
+        @keyframes lightning-video {
+            0%, 100% {
+                text-shadow: 
+                    0 0 5px #fff, 
+                    0 0 10px #fff, 
+                    0 0 20px #ff9900, 
+                    0 0 30px #ff9900, 
+                    0 0 40px #ff9900, 
+                    0 0 50px #ff9900, 
+                    0 0 75px #ff9900;
+            }
+            50% {
+                text-shadow: 
+                    0 0 5px #fff, 
+                    0 0 20px #ffcc00, 
+                    0 0 30px #ffcc00, 
+                    0 0 60px #ffcc00, 
+                    0 0 80px #ffcc00, 
+                    0 0 100px #ffcc00;
+            }
+        }
+    </style>
+</head>
+<body>
+  <marquee>Note in this project satyam in not envolving henced proved by all members</marquee>
+    <div class="container">
+        <h1>Welcome to Our Project!</h1>
+        <h2>Work done by:</h2>
+        <p class="highlight">Shivank</p>
+        <p class="highlight">Saif</p>
+        <p class="highlight">Aatif</p>
+        <h2 class="lightning"><font color=green>Thank you for visiting!</font></h2>
+        
+        <!-- Video Section -->
+        <div class="video-container">
+            <h2 class="lightning-video">Watch Our Featured Video</h2>
+            <iframe width="500" height="360" src="https://www.youtube.com/embed/AUG84meMQ9s" title="Dhodhi Kunwa Kaile Ba | Slowed-Reverb | Bhojpuri Lofi" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
